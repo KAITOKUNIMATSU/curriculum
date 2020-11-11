@@ -16,7 +16,7 @@ if(!empty($_POST["name"] && !empty($_POST["password"]))){
             $stmt->bindParam(':name', $name);
             $stmt->bindValue(':password', $password_hash);
             $stmt->execute();
-            $signUpMessage = '登録が完了しました';
+            echo '登録が完了しました';
         } catch (PDOException $e) {
             echo 'Error: ' . $e->getMessage();
             die();
