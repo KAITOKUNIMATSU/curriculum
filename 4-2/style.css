@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.wrapper{
+    width: 400px;
+    margin: 30px auto;
+}
+
+h1 {
+    margin: 0;
+    font-weight: normal;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+input, select {
+   width: 400px;
+   height: 30px;
+   border-radius: 5px;
+   margin-bottom: 12px;
+   border: 0.5px solid silver;
+}
+
+select {
+    width: 300px;
+}
+
+.submit {
+    color: white;
+    background-color: rgb(10, 148, 240);
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+}
+
+/* login.php */
+.signup-link {
+    float: right;
+    background-color: rgb(16, 221, 236);
+    width: 150px;
+    height: 40px;
+}
+
+/* main.php */
+.main-title {
+    font-size: 20px;
+}
+
+.logout {
+    background-color: rgb(133, 130, 130);
+}
+
+.new-book {
+    background-color: rgb(9, 135, 238);
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: solid 1px silver;
+}
+
+th {
+    background-color: rgb(212, 244, 250);
+    width: 300px;
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    height: 40px;
+}
+
+.delete {
+    background-color: rgb(236, 6, 6);
+}
+
